@@ -63,3 +63,9 @@ const createBoard = () => {
 }
 
 createBoard()
+
+// starting position of pacman
+let pacmanCurrentIndex = 500
+console.log(pacmanCurrentIndex)
+
+squares[pacmanCurrentIndex].classList.add('pacman')
