@@ -18,7 +18,7 @@ html, body {
 }
 
 .pac-dot {
-    background-color: green;
+    background-color: green !important;
     border: 5px solid white;
     box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ html, body {
 }
 
 .power-pellet {
-    background-color: green;
+    background-color: green !important;
     border-radius: 7.5px;
 }
 
@@ -36,4 +36,8 @@ html, body {
     background-color: yellow;
     border-radius: 7.5px;
 }
+
+
+
+
 
