@@ -69,3 +69,17 @@ let pacmanCurrentIndex = 500
 console.log(pacmanCurrentIndex)
 
 squares[pacmanCurrentIndex].classList.add('pacman')
+
+const control = e => {
+  if (e.keyCode === 40) {
+    console.log('move down')
+  } else if (e.keyCode === 39) {
+    console.log('move right')
+  } else if (e.keyCode === 38) {
+    console.log('move up')
+  } else if (e.keyCode === 37) {
+    console.log('move left')
+  }
+}
+
+document.addEventListener('keyup', control)
